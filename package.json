@@ -1,0 +1,25 @@
+{
+  "name": "mazes",
+  "version": "1.0.0",
+  "description": "Mazes for Programmers (Pragmatic Bookshelf) in ES7",
+  "main": "index.js",
+  "watch": {
+    "build": "src/**/*.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "dev": "npm-watch"
+  },
+  "keywords": [
+    "mazes"
+  ],
+  "author": "Tom Elders <him@tomelders.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-eslint": "^5.0.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "npm-watch": "^0.1.1"
+  }
+}
